@@ -1,0 +1,9 @@
+<h3>Rick and Morty API</h3>
+<div *ngIf="characters && characters.results.length > 0">
+    <ul>
+        <li *ngFor="let character of characters.results">
+            {{character.id}},
+            {{character.name}}
+          </li>
+    </ul>
+</div>
