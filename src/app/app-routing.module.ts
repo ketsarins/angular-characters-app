@@ -2,10 +2,17 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-const routes: Routes = [];
+const appRoutes: Routes = [
+  { 
+    path: '',   
+    redirectTo: '/characters', 
+    pathMatch: 'full' 
+  },
+  // { path: '**', component: PageNotFoundComponent } TODO:: implement PageNotFoundComponent 
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(appRoutes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
