@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
+## Project setup
+
+Run `npm install` to install the dependencies for the project.
+
 ## Development server
 
 Run `npm run start` for a dev server. Navigate to `http://localhost:8080/`. The app will automatically open your browser and reload if you change any of the source files.
